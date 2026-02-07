@@ -69,7 +69,7 @@ Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub
 ### روش دوم: استفاده از PuTTYgen
 
 &#x202b;
-۱. [PuTTY](https://www.putty.org/) را دانلود و نصب کنید
+۱. بایستی [PuTTY](https://www.putty.org/) را دانلود و نصب کنید
 
 &#x202b;
 ۲. برنامه **PuTTYgen** را باز کنید
@@ -322,7 +322,11 @@ ufw allow 443/udp
 
 &#x202b;
 ۱. وارد [Hetzner Cloud Console](https://console.hetzner.cloud/) شوید
+
+&#x202b;
 ۲. به قسمت **Firewalls** بروید
+
+   &#x202b;
 ۳. یک قانون جدید اضافه کنید:
    - **Direction:** Inbound
    - **Protocol:** UDP
